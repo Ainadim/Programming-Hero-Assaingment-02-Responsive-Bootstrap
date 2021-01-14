@@ -1,0 +1,29 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo img {
+    width: 250px;
+    height: 40px;
+}
+
+.header-color {
+    background-color: #FFFFF4;
+}
+
+.service-area img {
+    width: 80px;
+    height: 80px;
+}
+
+.hero-area h1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 80px;
+    font-weight: 700;
+    color: #363958;
+}
+
+.hero-area h1 span {
+    color: #76C27E;
+}
