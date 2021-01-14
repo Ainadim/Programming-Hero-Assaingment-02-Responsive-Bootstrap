@@ -4,13 +4,25 @@ body {
 }
 
 .logo img {
-    width: 250px;
+    width: 300px;
     height: 40px;
 }
 
 .header-color {
     background-color: #FFFFF4;
 }
+
+.navbar ul li {
+    padding: 0 20px;
+}
+
+.navbar ul li a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3C3C3C;
+    text-decoration: none;
+}
+
 .service-area img {
     width: 80px;
     height: 80px;
@@ -19,16 +31,17 @@ body {
 .hero-area h1 {
     font-family: 'Bebas Neue', cursive;
     font-size: 80px;
-    font-weight: 700;
     color: #363958;
 }
 
 .hero-area h1 span {
     color: #76C27E;
 }
+
 .hero-area p {
     padding-right: 200px
 }
+
 .buy-button {
     background-color: #2A1E59;
     color: #fff;
@@ -37,22 +50,134 @@ body {
     font-weight: 300;
     padding: 10px 30px;
     line-break: auto;
+    border-radius: 10px;
 }
-button .buy-button p {
-    padding-right: 15px;
+
+.casual-backpack-area h1, .travel-Backpack-area h1 {
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
 }
+
 .card {
     border: none;
+    border-radius: 10px;
 }
+
+.card-body {
+    padding: 0;
+}
+
+.card-body h5 {
+    color: #363958;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.card-body p {
+    color: #3E3E3E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
 .card-shadow img {
     background-color: #F1F1F1;
     border-radius: 10px;
 }
+
 .card-footer {
     border: none;
     background-color: #fff;
+}
+
+.card-footer h2 {
     color: #76C27E;
     font-size: 36px;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
+}
+
+/* Medium devices (tablets, less than 992px) */
+
+@media (max-width: 991.98px) {
+    .hero-area p {
+        padding-right: 0px;
+    }
+    .service-area img {
+        width: 60px;
+        height: 60px;
+    }
+    .card-body h5 {
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    .card-body p {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .card-area-image {
+        padding-top: 80px;
+    }
+    .card-footer h2 {
+        font-size: 24px;
+        padding-right: 10px;
+    }
+    .buy-button {
+        font-size: 12px;
+        padding: 10px 10px;
+    }
+    .casual-backpack-area h1, .travel-Backpack-area h1 {
+        text-align: center;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+    .buy-button {
+        font-size: 22px;
+        padding: 20px 30px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    .service-area img {
+        width: 100px;
+        height: 100px;
+    }
+    .align-center {
+        text-align: center;
+    }
+    .card-body h5 {
+        font-size: 30px;
+    }
+    .card-body p {
+        font-size: 20px;
+    }
+    .card-footer h2 {
+        font-size: 55px;
+        padding-left: 50px;
+    }
+    .buy-button {
+        font-size: 30px;
+        padding: 20px 30px;
+        font-weight: 400;
+    }
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
+    .logo img {
+        width: 240px;
+        height: 35px;
+    }
+    .card-footer h2 {
+        font-size: 45px;
+        padding-left: 0;
+    }
+    .buy-button {
+        font-size: 20px;
+        font-weight: 400;
+    }
 }
